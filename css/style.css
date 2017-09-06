@@ -234,6 +234,10 @@ header .hero p {
   width: auto;
   margin: 0;
 }
+.testimonials blockquote.low {
+  margin-top: 20px;
+}
+/* TRIANGLE */
 .testimonials blockquote:after {
   top: 100%;
   left: 13%;
