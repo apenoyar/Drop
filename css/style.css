@@ -391,6 +391,7 @@ footer .logo {
   list-style-type: none;
   margin-bottom: 15px;
 }
+
 .left-nav .items ul li a {
   color: #FFFFFF;
   text-decoration: none;
@@ -400,6 +401,15 @@ footer .logo {
   width: 16px;
   text-align: center;
   margin-right: 8px;
+}
+.left-nav .items ul li.active {
+  background-color: #FFFFFF;
+}
+.left-nav .items ul li.active a {
+  color: #8B4CAB;
+}
+.left-nav .items ul li.active a i {
+  color: #8B4CAB;
 }
 
 /* Left NavBar Settings */
@@ -480,6 +490,7 @@ footer .logo {
   right: 0;
 }
 .item-box h2 {
+  color: #8B4CAB;
   font-family: 'Roboto', Helvetica, Arial, sans-serif;
   font-weight: 700;
   font-size: 15px;
@@ -493,11 +504,20 @@ footer .logo {
   top: 2px;
   margin-right: 5px;
 }
+.item-box h2 a {
+  color: #8B4CAB;
+  text-decoration: none;
+}
 .item-box p {
   font-size: 14px;
   color: #333333;
   line-height: 18px;
   margin: 5px 0 0;
+}
+.item-box ol li {
+  font-size: 14px;
+  color: #333333;
+  font-weight: 300;
 }
 @media (min-width: 500px) {
   .container {
