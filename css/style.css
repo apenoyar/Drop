@@ -434,6 +434,7 @@ footer .logo {
 }
 .left-nav .items ul li.active {
   background-color: #FFFFFF;
+  padding: 2px;
 }
 .left-nav .items ul li.active a {
   color: #8B4CAB;
@@ -464,6 +465,7 @@ footer .logo {
   padding-top: 8px;
   font-weight: 400;
   margin: 0 0 0 10px;
+  color: #FFFFFF;
 }
 .left-nav .settings a {
   color: #FFFFFF;
